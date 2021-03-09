@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="[Daftar Obat]"
+    android:layout_marginBottom="20dp"
+    android:textSize="30dp"
+    android:id="@+id/textView1"
+    android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/obat1"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/obat1" />
+
+    <TextView
+    android:id="@+id/tv_1"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_below="@+id/obat1"
+    android:hint="NourishSkin"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/obat1"
+        android:hint="Rp.80.000"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/obat2"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@+id/obat1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/obat2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/obat2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="-43dp"
+        android:hint="ViostinDs"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/obat2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="-80dp"
+        android:hint="Rp.78.000"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+
+    <ImageView
+        android:id="@+id/obat3"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/obat2"
+        android:layout_alignTop="@+id/obat1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:src="@drawable/obat3" />
+
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/obat2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="-333dp"
+        android:hint="Proris"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/obat2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="-361dp"
+        android:hint="Rp.49.000"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/obat4"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/obat2"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/obat4" />
+
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/obat2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginRight="251dp"
+        android:layout_marginBottom="-335dp"
+        android:hint="Toras"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tv_8"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/obat2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="-372dp"
+        android:hint="Rp.6.000"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/obat4"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/dongker"
+        android:text="Order"
+        android:layout_centerHorizontal="true"/>
+mis
+</RelativeLayout>
